@@ -1,0 +1,5 @@
+#!/bin/bash
+
+count=`more /proc/cpuinfo | grep processor | wc -l`
+
+echo "Number of CPU's installed $count"#!/bin/bash
