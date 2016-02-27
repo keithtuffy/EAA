@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+read var
+
+printf "%s\n" "$var" >> $HOME/logs/diary.txt
